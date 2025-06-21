@@ -1,0 +1,225 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: url(../images/B5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px ;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.logo img{
+    background-color: #fff;
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: rgb(33, 133, 221);
+    font-size: 47px;
+    font-family: Century;
+
+
+}
+
+.moreinfo{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.moreinfo h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Century;
+
+}
+
+.moreinfo h3{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Century;
+}
+
+.moreinfo h4{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Century;
+}
+
+span, a{
+    display: inline-block;
+}
+
+.socialmedia{
+    position: absolute;
+    top: 101%;
+    left: 55%;
+    transform: translate(-60%,-60px);
+}
+
+.socialmedia a{
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.title1{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.title1 h1{
+    color: rgb(20, 20, 20);
+    font-size: 40px;
+    font-family: Century;
+}
+
+.title1 h2{
+    color: rgb(20, 20, 20);
+    font-size: 40px;
+    font-family: Century;
+}
+
+.title2{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title2 h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: Century;
+}
+
+.title3{
+    position: left;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title3 h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Century;
+}
+
+.title4{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.title4 h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Century;
+}
+
+/*--------- contact us --------*/
+
+.contact-us{
+    width: 40%;
+    margin: auto;
+}
+
+.contact-col{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-col div.fa{
+    font-size: 28px;
+    color: aqua;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.contact-col div p{
+    color: #FB902C;
+    padding: 0;
+}
+
+.contact-col div h5{
+    font-size: medium;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.contact-col1{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.contact-col1 input, .contact-col1 textarea{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 0px solid #ccc;
+}
+
+.bikes img{
+    width: 15%;
+    margin: auto;
+}
